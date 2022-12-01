@@ -20,7 +20,11 @@ Options:
 Log file is supposed to look like:
 
 [    3.56G cycles in 1 calls ]     - 100.00% : load(test)
+
 [    3.56G cycles in 1 calls ]     |   - 100.00% : Test.main
+
 [    2.21G cycles in 1 calls ]     |   |   - 62.05% : Test.zzz_1
+
 [    1.10G cycles in 1 calls ]     |   |   - 31.04% : Test.zzz_05
+
 [  221.00M cycles in 1 calls ]     |   |   -  6.21% : Test.zzz_01
